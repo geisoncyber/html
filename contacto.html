@@ -26,12 +26,12 @@
     O ARBUSTO DEL CAFETO, UNA RUBEACEA QUE CRECE EN CLIMAS CALIDOS Y CUYO CULTIVO
     SE EXTIENDE A TIEMPOS RELATIVAMENTE PROXIMOS.
   </p>
-  <section>
+  <form>
       <label for="nombre">Nombre:</label>
         <input type="text" 
         id="nombre" 
         name="nombre" 
-        pattern="[a-zA-Z]+" 
+        pattern="[a-zA-Z]+"requiredl
         title="Solo se permiten letras mayúsculas y minúsculas" required><br>
         <label for="apellido">Apellido:</label>
         <input type="text" 
@@ -72,14 +72,6 @@
         <label for="hora">Hora de registro:</label>
         <input type="time" id="hora" name="hora" required><br>
         <label for="ciudad">Ciudad:</label>
-        <select id="ciudad" 
-        name="ciudad" required></select>
-        <option value="">Seleccione una ciudad</option>
-        <option value="bogota">Bogotá</option>
-        <option value="medellin">Medellín</option>
-        <option value="cali">Cali</option>
-        <option value="cartagena">Cartagena</option>
-      </select><br>
       <div>
         <select name="ciudad" id="ciudad">
           <option value="bucaramanga">bucaramanga</option>
@@ -87,7 +79,6 @@
           <option value="cali">cali</option>
           <option value="medellin">medellin</option>
         </select>
-      
       </div>
       <label for="genero">Género:</label>
       <input type="radio" id="masculino" name="genero" value="masculino" required> Masculino
@@ -115,7 +106,7 @@
       <input type="text" 
       id="aprendiz" 
       name="aprendiz" 
-      value="Nombre del Aprendiz" readonly><br>
+      value="geison pabon" readonly><br>
       <input type="submit" value="Enviar">
     </form>
 
